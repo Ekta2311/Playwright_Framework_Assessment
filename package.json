@@ -1,0 +1,23 @@
+{
+  "name": "playwright_framework",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js --require features/**/*.js",
+    "test:smoke": "cucumber-js --require features/**/*.js --tags \"@smoke\"",
+    "test:regression": "cucumber-js --require features/**/*.js --tags \"@regression\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.3.0",
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.19",
+    "allure-commandline": "^2.34.0",
+    "allure-cucumberjs": "^3.2.2",
+    "allure-js-commons": "^3.2.2",
+    "cucumber-html-reporter": "^7.2.0"
+  }
+}

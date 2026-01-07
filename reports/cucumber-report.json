@@ -1,0 +1,89 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "douglas-parfum-listing-using-filters;validate-parfum-products-using-filters",
+        "keyword": "Scenario Outline",
+        "line": 15,
+        "name": "Validate parfum products using filters",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 647170800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user navigates to Douglas website",
+            "match": {
+              "location": "features\\stepdefinitions\\loginstep.spec.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2099616799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "user accepts the cookie consent",
+            "match": {
+              "location": "features\\stepdefinitions\\loginstep.spec.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4451325200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "user clicks on Parfum category",
+            "match": {
+              "location": "features\\stepdefinitions\\loginstep.spec.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 393676000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 479799
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "douglas-parfum-listing-using-filters",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Douglas Parfum listing using filters",
+    "tags": [
+      {
+        "name": "@smoke",
+        "line": 1
+      }
+    ],
+    "uri": "features\\douglas.feature"
+  }
+]
